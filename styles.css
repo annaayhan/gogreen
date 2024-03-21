@@ -1,5 +1,3 @@
-
-
 body {
     margin: 0;
     padding: 0;
@@ -13,10 +11,16 @@ p {
     line-height: 1.5;
 }
 
-a {
+header a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    color:#055B49;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase; 
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -24,23 +28,7 @@ a:hover {
     opacity: 50%;
 }
 
-button {
-    background-color: #055B49;
-    color: #FFF6E7;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin-top: 10px;
-    font-size: 14px;
-}
 
-button a {
-    text-decoration: none;
-    color: #FFF6E7;
-    font-size: 14px;
-}
 
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -155,12 +143,24 @@ header nav ul li a.active {
 
 .højre-kolonne {
     flex: 1; 
-    padding: 0 20px; 
+    padding: 0 20px;
+    padding-bottom: 40px; 
 }
 
-.højre-kolonne a {
-    color:#055B49;
+.genbrug a {
+    background-color: #FFF6E7;
+    color: #055B49;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 70px; 
 }
+
 
 .genbrug h2 {
     color:#FFF6E7;
@@ -168,21 +168,6 @@ header nav ul li a.active {
     margin-bottom: 40px; 
 }
 
-.genbrug button {
-background-color: #FFF6E7;
-color: #055B49;
-padding: 10px 20px;
-border: none;
-cursor: pointer;
-font-weight: bold;
-text-transform: uppercase;
-margin-bottom: 70px; 
-
-}
-
-.genbrug button:hover {
-    opacity: 80%;
-}
 
 .spisesteder {
     padding: 50px 0; 
@@ -197,6 +182,19 @@ margin-bottom: 70px;
 .right-column {
     flex: 1; 
     padding: 0 20px; 
+}
+
+.right-column a {
+    background-color:#055B49;
+    color:#FFF6E7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
 }
 
 .spisesteder h2 {
@@ -215,7 +213,7 @@ margin-bottom: 70px;
     line-height: 1.5;
 }
 
-.spisesteder button {
+.spisesteder a {
     background-color: #055B49;
     color: #FFF6E7;
     padding: 10px 20px;
@@ -224,10 +222,6 @@ margin-bottom: 70px;
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 10px; 
-}
-
-.spisesteder button:hover {
-    opacity: 80%;
 }
 
 .link-tekst {
@@ -259,6 +253,19 @@ margin-bottom: 70px;
     margin-right: 20px;
 }
 
+.arrangementer a {
+    background-color:#055B49;
+    color:#FFF6E7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 12vw;
+}
+
 .højre-side {
     flex: 1;
     margin-left: 9vw; 
@@ -277,13 +284,9 @@ margin-bottom: 70px;
 }
 
 .arrangementer p {
-    margin-bottom: 10px;
+    margin-bottom: 2em;
     margin-left: 12vw;
     margin-right: 7vw;
-}
-
-.arrangementer button {
-    margin-left: 12vw;
 }
 
 
@@ -315,17 +318,24 @@ margin-bottom: 70px;
     
 }
 
-.image-section button {
+.image-section a {
     display: block;
     margin-top: 10px;
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color:#055B49;
+    color:#FFF6E7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
-button:hover {
-    opacity: 80%;
-}
 
 .energi {
     display: flex;
@@ -356,16 +366,6 @@ button:hover {
     margin-bottom: 10px;
     margin-left: 5vw;
     color: #FFF6E7;
-}
-
-.energi button {
-    margin-left: 5vw; 
-    background-color: #FFF6E7;
-    color: #055B49;
-}
-
-.energi button a {
-    color:#055B49;
 }
 
 .højre img {
@@ -404,7 +404,7 @@ button:hover {
     margin-right: 10vw;
 }
 
-.right button {
+.right a {
     margin-left: 8vw; 
 }
 
@@ -524,9 +524,10 @@ footer {
 
 .reuse-content p {
     margin-right: 11em; 
+    margin-bottom: 2em;
 }
 
-.reuse-content p a {
+.reuse-content a {
     color:#055B49;
 }
 
@@ -549,7 +550,6 @@ footer {
 .reusable-content a {
     color:#055B49;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
     margin-left: 3em;
 }
 
@@ -616,12 +616,22 @@ footer {
     opacity: 80%;
 }
 
-.image-section2 button {
+.image-section2 a {
     display: block;
     margin-top: 10px;
     justify-content: center;
     align-items: center;
     text-align: center;
+    background-color:#055B49;
+    color:#FFF6E7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
 /*Madvaner*/
@@ -976,7 +986,7 @@ footer {
         font-size: 16px;
     }
 
-    .spisesteder button {
+    .spisesteder a {
         margin-left: 20px; 
     }
 
@@ -1000,8 +1010,7 @@ footer {
     }
 
     .højre-side img {
-        max-width: 100%;
-        height: 200px;
+        display: none; 
         
     }
 
@@ -1017,9 +1026,9 @@ footer {
         font-size: 16px;
     }
 
-    .arrangementer button {
+    .arrangementer a {
         margin-left: 20px;
-        font-size: 12px;
+        font-size: 14px;
         margin-bottom: 20px; 
     }
 
@@ -1063,7 +1072,7 @@ footer {
       display: none;
     }
 
-    .energi button {
+    .energi a {
         margin-left: 40px;
         margin-bottom: 40px; 
     }
@@ -1090,7 +1099,8 @@ footer {
         
     }
 
-    /*Footer mobilversion*/
+    /*
+     mobilversion*/
 
     footer {
         display: flex;
@@ -1198,6 +1208,7 @@ footer {
         text-align: center;
         font-size: 40px;
     }
+
 
     .reuse-content p {
         text-align: justify;
@@ -1400,7 +1411,7 @@ footer {
         max-height: auto;
     }
 
-    .reuse-content button {
+    .reuse-content a {
         justify-content: center;
         text-align: center;
         margin-left: 7em;
@@ -1408,8 +1419,5 @@ footer {
         
     }
 
-    .reuse-content a {
-        
-    }
 }
 
