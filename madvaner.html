@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madvaner</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/d92f24d231.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-LbgckNodc8CXjqSyEx1y6spu9Fe4/xSIA4WPd9SVLnvuR3TKP1Q76ZIexaxo2QI6p3b1+gJUHs+q42+hHbjJGQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    
+</head>
+<body>
+    <header>
+    <div class="logo">
+        <a href="index.html">
+        <img src="logo-grøn.png" alt="Go Green logo">
+        </a>
+    </div>
+
+    <!--BURGERMENU-->
+    
+    <div class="burger-menu" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+    </div>
+    <ul class="menu-items">
+            <li><a href="index.html" class="item1">Hjem</a></li>
+            <li><a href="genbrug.html" class="item2">Genbrug</a></li>
+            <li><a href="madvaner.html" class="item3">Madvaner</a></li>
+            <li><a href="oplevelser.html" class="item4">Oplevelser</a></li>
+        </ul>
+</div>
+
+<script src="script.js"></script>
+
+<!--Desktop navigation-->
+        <nav class="desktopmenu">
+            <ul>
+                <li><a href="genbrug.html">Genbrug</a></li>
+                <li><a href="madvaner.html" class="active">Madvaner</a></li>
+                <li><a href="oplevelser.html">Oplevelser</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section class="top-image">
+        <img src="madvaner-top.png" alt="Billede af grøntsager">
+    </section>
+
+    <section class="info">
+        <h2>Madvaner</h2>
+        <p>Mad er mere end blot brændstof til kroppen - det er en mulighed for at opbygge en meningsfuld forbindelse til vores mad og dens indvirkning på vores planet. Vores side er fyldt med lækre opskrifter, indsigt i lokale økologiske producenter og tips til at mindske madspild. Lad dig inspirere til at gøre en positiv forskel, både for dig selv og vores miljø.</p>
+    </section>
+
+    <section class="dyrevelfærd">
+        <div id="seøko" class="left">
+            <img src="farm.jpeg" alt="Billede af landmand">
+        </div>
+
+            <div class="right">
+                <h2>Lokal økologi</h2>
+                <p>Lokal økologi handler om mere end bare sund og frisk mad. Det handler om at opbygge forbindelser til vores lokalsamfund og naturen omkring os. Ved at støtte lokale økologiske producenter bidrager vi ikke kun til vores eget velvære, men også til en mere bæredygtig fremtid for vores planet.</p>
+            </div>
+        </section>
+
+        <section class="reusable">
+            <div class="reusable-content">
+                <h2>Gartnergården Aarhus</h2>
+                <p>Gartnergården, lidt uden for Aarhus, er det perfekte sted for dig og din familie, hvis I ønsker en hyggelig eftermiddag i smukke omgivelser. Gartnergården har masser af dyr, som man kan komme helt tæt på, en charmerende gårdhave, hvor en bred vifte af arrangementer afholdes, fra julehygge til sommerjazz. En gårdbutik med lækre, friske råvarer, en hyggelig café og et køkken, der serverer lækker take-away mad til alle, er der også. Hos Gartnergården er bæredygtighed deres hjertesag. De investerer i vindmølleenergi, bekæmper madspild, installerer solpaneler og prioriterer økologiske råvarer i deres butik, bageri og køkken. </p>
+                    <a href="https://www.ggaarhus.dk/" target="_blank">Besøg Gartnergårdens hjemmeside</a>
+            </div>
+
+            <div class="reusable-image">
+                <img src="gartnergården1.jpeg" alt="Billede af Gartnergården">
+            </div>
+        </section>
+
+        <section class="opskrifter">
+            <div id="seopskrifter"class="opskrifter-content">
+                <h2>Opskrifter</h2>
+                <p>Udforsk vores lækre opskrifter her</p>
+            </div>
+
+            <section class="image-section2">
+    
+                <div class="image-container2">
+                    <div class="image-wrapper2">
+                    <img src="dahl.jpeg" alt="Billede af dhal">
+                    <button>
+                        <a href="#">Indisk Dhal</a></button>
+                </div>
+
+                <div class="image-container2">
+                    <div class="image-wrapper2">
+                    <img src="kartofler.jpeg" alt="Billede af fransk kartoffelsalat">
+                    <button>
+                        <a href="#">Kartoffelsalat</a>
+                    </button>
+                </div>
+
+                <div class="image-container2">
+                    <div class="image-wrapper2">
+                    <img src="shakshuka.jpeg" alt="Billede af shakshuka">
+                    <button>
+                        <a href="#">Shakshuka</a>
+                    </button>
+                </div>
+                </div>
+                </section>
+
+                <section class="image-section2">
+
+                    <div class="image-container2">
+                        <div class="image-wrapper2">
+                        <img src="pasta.jpeg" alt="Billede af pasta">
+                        <button><a href="#">Feta pasta</a></button>
+                    </div>
+
+                    <div class="image-container2">
+                        <div class="image-wrapper2">
+                        <img src="laks.jpeg" alt="Billede af laks">
+                        <button><a href="#">Grillet laks</a></button>
+                    </div>
+
+                    <div class="image-container2">
+                        <div class="image-wrapper2">
+                        <img src="kødboller.jpeg" alt="Billede af kødboller">
+                        <button><a href="#">Græske kødboller</a></button>
+                    </div>
+                    </div>
+                </section>
+
+                <section class="wefood">
+                    <div class="wefood-image">
+                        <img src="wefood.jpeg" alt="Billede af bæredygtigt supermarked WeFood">
+                    </div>
+
+                    <div id="sewefood" class="wefood-content">
+                        <h2>WeFood</h2>
+                        <p>WeFood på Vesterbro Torv,  tilbyder et bredt udvalg af overskudsfødevarer og non-food varer. Initiativet blev grundlagt af Folkekirkens Nødhjælp og drives af frivillige. Produkterne sælges til en lavere pris, da supermarkeder, leverandører og producenter ikke kan anvende dem på grund af overproduktion, nærhed til udløbsdato eller mindre kosmetiske fejl på emballagen. Indtægterne går direkte til støtte for mennesker i nød rundt om i verden. WeFood er ikke blot en fantastisk kilde til gode tilbud, men også en væsentlig spiller i kampen mod madspild.</p>
+                        <br><a href="https://www.noedhjaelp.dk/wefood/butikker">Besøg WeFoods hjemmeside</a>
+                    </div>
+                </div>
+                </section>
+                <section class="måltidskasser">
+                    <div class="måltidskasser-content">
+                        <h2>Grim måltidskasser</h2>
+                        <p>Grim Måltidskasser tilbyder måltidskasser fyldt med lækre og økologiske overskudsfrugter og -grøntsager, der ellers ville blive smidt ud. Indholdet i kasserne er frisk og appetitligt, selvom gulerødderne måske har en sjov form eller agurken er lidt mere buet end normalt. Du kan vælge mellem forskellige størrelser af måltidskasser afhængigt af dine behov og enten abonnere på dem eller købe dem enkeltvis. Du kan få dem leveret direkte til din dør, eller afhente dem i butikken Soul Shine i Graven i Aarhus. Ved at bestille Grim Måltidskasser hjælper du med at bekæmpe madspild.</p>
+                        <a href="https://eatgrim.com/efteraar23" target="_blank">Bestil måltidskasser fra Grim på deres hjemmeside</a>
+                    </div>
+            
+                        <div class="måltidskasser-image">
+                            <img src="grim.jpeg" alt="Billede af måltidskasser fra Grim">
+                        </div>
+                    </section>
+
+                    <section class="spisesteder2">
+                        <div id="seliste" class="left-column2">
+                            <h2><strong>Økologiske</strong> spisesteder<br>i Aarhus</h2>
+                        </div>
+                        <div class="right-column2">
+                            <p>Se her listen over økologiske spisesteder, i Aarhus, med Det Økologiske Spisemærke. Dette certificeringsmærke gives til spisesteder, der serverer en stor del af deres mad og drikkevarer i økologisk kvalitet. 
+                                Økologi er bedre for miljøet, naturen, dyrene og vores helbred.</p>
+                        </div>
+                    </section>
+
+                        <div class="list">
+                            <h3><a href="https://restaurant-haervaerk.dk/en/" target="_blank">1. Restaurant Hærværk</a></h3>
+                            <p>Restaurant Hærværk er tildelt Michelin Green Star 2023, som uddeles til restauranter, der gør noget helt særligt for bæredygtighed. Menuen bliver her på daglig basis udarbejdet på baggrund af sæsonens udbud med en personlig kontakt til alle leverandører.</p>
+                        </div>
+
+                        <div class="list">
+                            <h3><a href="https://www.aros.dk/da/besoeg/mad-og-drikke/caf%C3%A9-og-orangeri/" target="_blank">2. ARoS Café og Orangeri</a></h3>
+                            <p>Tag en slapper og få en lækker bid mad i ARoS' café og orangeri. Her kan du nyde eftermiddagskaffen, spise lette og lækre snacks eller få særligt gode aftensmadstilbud efter kl. 17 i hverdagen.</p>
+                        </div>
+
+                            <div class="list">
+                            <h3><a href="https://www.moesgaardmuseum.dk/besoeg-os/caf%C3%A9/" target="_blank">3. Moesgaard Café</a></h3>
+                            <p>Du finder Moesgaard Café på Moesgaard Museum, hvor du kan nyde en frokost, buffet og utrolig lækre retter. Her er økologi og lokale råvarer i fokus, og mange af råvarerne er hentet fra naturen omkring museet.</p>
+                        </div>
+
+                        <div class="list">
+                            <h3><a href="https://www.dgi-huset.dk/cafe/cafe-lokomotivhallen/" target="_blank">4. Café Lokomotivhallen</a></h3>
+                            <p>Hos DGI-huset finder du en hyggelig café, der byder på lidt af hvert. Cafeen Café Lokomotivhallen ligger i DGI-husets historiske fredede bygninger fra 1896, der oprindeligt har været centralt værksted for statsbanerne. Bygningerne er fredet, og caféen ligger smukt placeret lige midt i et stykke aarhusiansk historie.</p>
+                        </div>
+
+                        <div class="list">
+                            <h3><a href="https://www.lacabra.dk/pages/borggade-bakery" target="_blank">5. La Cabra Bakery</a></h3>
+                            <p>Hos La Cabra Bakery kan du følge med i hvordan brød og kager bages - fra start til slut via de transparente opdelinger i rummene.</p>
+                        </div>
+                    
+                        <footer>
+                            <div class="column">
+                                <h3>Navigation</h3>
+                                <ul>
+                                    <li><a href="index_dk.html">Hjem</a></li>
+                                    <li><a href="#">Genbrug</a></li>
+                                    <li><a href="#">Madvaner</a></li>
+                                    <li><a href="#">Oplevelser</a></li>
+                                    <li><a href="#">Energi</a></li>
+                                    <li><a href="#">Kontakt os</a></li>
+                                </ul>
+                            </div>
+                        
+                            <div class="column">
+                                <h3>Sociale Medier</h3>
+                                <ul>
+                                    <li><a href="#">Facebook</a></li>
+                                    <li><a href="#">Instagram</a></li>
+                                    <li><a href="#">LinkedIn</a></li>
+                                    <li><a href="#">TikTok</a></li>
+                                </ul>
+                            </div>
+                        
+                            <div class="column">
+                                <h3>Kontakt</h3>
+                                <ul>
+                                    <li>Sønder Allé 9B,<br>8000 Aarhus C</li>
+                                    <li>Tlf.: +45 20 20 02 02</li>
+                                    <li>Email: go@green.dk</li>
+                                </ul>
+                            </div>
+                        
+                            <div class="footer-logo">
+                                <img src="logo-hvid.png" alt="Go Green Aarhus logo">
+                            </div>
+                        </footer>
+                        </body>
+                        </html>

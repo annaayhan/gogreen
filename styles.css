@@ -1,0 +1,1415 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFF6E7;
+}
+
+p {
+    color: #055B49;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px; 
+    line-height: 1.5;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:#055B49;
+}
+
+
+a:hover {
+    opacity: 50%;
+}
+
+button {
+    background-color: #055B49;
+    color: #FFF6E7;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+button a {
+    text-decoration: none;
+    color: #FFF6E7;
+    font-size: 14px;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    color:#055B49;
+    font-size: 60px;
+    text-transform: lowercase;
+}
+
+
+
+/*Header*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #FFF6E7;
+}
+
+
+.logo img {
+    max-height: 110px;
+    margin-left: 20px;
+}
+
+.desktopmenu a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #055B49;
+}
+
+.desktopmenu a:hover {
+    opacity: 50%;
+}
+
+.desktopmenu ul {
+    list-style-type: none;
+    padding: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif; 
+}
+
+.desktopmenu li {
+    display: inline;
+    padding: 20px;
+}
+
+header nav ul li a.active {
+    text-decoration: underline;
+}
+
+/*Forside*/
+
+.top-image {
+    background-color: #FFF6E7;
+    text-align: center;
+    padding: 20px;
+}
+
+.top-image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.content-section {
+    text-align: left;
+    padding: 20px;
+    background-color: #FFF6E7;
+
+}
+
+.content-section p {
+    color: #055B49;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 20px;
+    margin-left: 70px; 
+    line-height: 1.5;
+    margin-bottom: 100px;
+
+}
+
+.content-section h2 {
+    color:#055B49;
+    font-size: 60px;
+    margin: 20px;
+    margin-top: 60px; 
+    margin-left: 70px;
+}
+
+.genbrug {
+    background-color: #055B49;
+    padding: 50px 0; 
+    display: flex;
+    align-items: center;
+}
+
+.venstre-kolonne {
+    flex: 1; 
+}
+
+.venstre-kolonne img {
+    max-width: 100%;
+    display: block;
+    margin-left: 7vw; 
+}
+
+.højre-kolonne {
+    flex: 1; 
+    padding: 0 20px; 
+}
+
+.højre-kolonne a {
+    color:#055B49;
+}
+
+.genbrug h2 {
+    color:#FFF6E7;
+    font-size: 70px;
+    margin-bottom: 40px; 
+}
+
+.genbrug button {
+background-color: #FFF6E7;
+color: #055B49;
+padding: 10px 20px;
+border: none;
+cursor: pointer;
+font-weight: bold;
+text-transform: uppercase;
+margin-bottom: 70px; 
+
+}
+
+.genbrug button:hover {
+    opacity: 80%;
+}
+
+.spisesteder {
+    padding: 50px 0; 
+    display: flex; 
+    align-items: center;
+}
+
+.left-column {
+    flex: 1; 
+}
+
+.right-column {
+    flex: 1; 
+    padding: 0 20px; 
+}
+
+.spisesteder h2 {
+    color:#055B49;
+    font-size: 60px;
+    margin: 70px;
+    text-transform: lowercase;
+    margin-left: 12vw;
+}
+
+.spisesteder p {
+    color: #055B49;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-right: 12vw;  
+    line-height: 1.5;
+}
+
+.spisesteder button {
+    background-color: #055B49;
+    color: #FFF6E7;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px; 
+}
+
+.spisesteder button:hover {
+    opacity: 80%;
+}
+
+.link-tekst {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px; 
+}
+
+.link-tekst a {
+    color:#055B49; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.link-tekst a:hover {
+    opacity: 80%;
+}
+
+.arrangementer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    margin-top: 80px;
+}
+
+.venstre-side {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.højre-side {
+    flex: 1;
+    margin-left: 9vw; 
+}
+
+.højre-side img {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.arrangementer h2 {
+    text-transform: lowercase;
+    margin-bottom: 10px;
+    margin-left: 12vw;
+}
+
+.arrangementer p {
+    margin-bottom: 10px;
+    margin-left: 12vw;
+    margin-right: 7vw;
+}
+
+.arrangementer button {
+    margin-left: 12vw;
+}
+
+
+.image-section {
+    text-align: center;
+    padding: 50px 0; 
+}
+
+.image-section h2 {
+    margin-bottom: 30px; 
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image-wrapper {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-wrapper img {
+    width: 400px;
+    height: 300px; 
+    object-fit: cover;
+    
+}
+
+.image-section button {
+    display: block;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button:hover {
+    opacity: 80%;
+}
+
+.energi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    background-color: #055B49;
+}
+
+.venstre {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.højre {
+    flex: 1;
+    margin-left: 9vw; 
+}
+
+.energi h2 {
+    text-transform: lowercase;
+    margin-bottom: 10px;
+    margin-left: 5vw;
+    color: #FFF6E7;
+}
+
+.energi p {
+    margin-bottom: 10px;
+    margin-left: 5vw;
+    color: #FFF6E7;
+}
+
+.energi button {
+    margin-left: 5vw; 
+    background-color: #FFF6E7;
+    color: #055B49;
+}
+
+.energi button a {
+    color:#055B49;
+}
+
+.højre img {
+    width: 50vw;
+    height: 80vh;
+}
+
+.dyrevelfærd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.left {
+    flex: 1;
+    margin-right: 20px;
+}
+.left img {
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-left: 8vw;
+}
+
+.right h2 {
+    margin-bottom: 10px;
+    margin-left: 8vw;
+}
+.right p {
+    margin-bottom: 10px;
+    margin-left: 8vw;
+    margin-right: 10vw;
+}
+
+.right button {
+    margin-left: 8vw; 
+}
+
+/*Footer*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #055B49;
+    padding: 3em;
+    padding-top: 4em;
+    padding-right: 4em;
+   
+}
+
+.column {
+    flex: 1; 
+    margin: 0 10px; 
+}
+
+.column h3 {
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF6E7;
+    font-size: 16px;
+    margin-bottom: 20px; 
+}
+
+.column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #FFF6E7;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.column ul li {
+    color:#FFF6E7;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.column ul li a {
+    color: #FFF6E7;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.column ul li a:hover {
+    opacity: 80%;
+} 
+
+.footer-logo {
+    padding-left: 200px; 
+}
+
+.footer-logo img {
+    max-width: 300px;
+    margin-top: 4em; 
+    
+}
+
+/*Genbrug*/
+
+.genbrug-genbrug { 
+    padding: 20px 0; 
+    display: flex;
+    align-items: center;
+}
+
+.genbrug-genbrug h2 {
+    font-size: 80px;
+}
+
+.info {
+    background-color:#055B49;
+    padding: 20px;
+    padding-bottom: 5em;
+    padding-top: 3em;
+}
+
+.info h2 {
+    color: #FFF6E7;
+    text-align: center;
+    font-weight: bold;
+}
+
+.info p {
+    color: #FFF6E7;
+    text-align:justify;
+    padding-left: 15em; 
+    padding-right: 15em;
+}
+
+.reuse {
+    display: flex; 
+    align-items: center;
+    margin-top: 5em;
+    margin-bottom: 5em; 
+}
+
+.reuse-image {
+    flex: 1; 
+    margin-right: 4em; 
+}
+
+.reuse-image img {
+    max-width: 50vw;
+    height: auto; 
+}
+
+.reuse-content {
+    flex: 2;
+}
+
+.reuse-content p {
+    margin-right: 11em; 
+}
+
+.reuse-content p a {
+    color:#055B49;
+}
+
+.reuse-content h2 {
+    margin-bottom: 0;
+}
+
+.reusable {
+    display: flex;
+    align-items: center;
+    margin-top: 10em;
+    margin-bottom: 5em;
+}
+
+.reusable-content {
+    flex: 2; 
+    margin-right: 20px; 
+}
+
+.reusable-content a {
+    color:#055B49;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 3em;
+}
+
+.reusable-image {
+    flex: 1; 
+    margin-top: 3em; 
+}
+
+.reusable-image img {
+    max-width: 50vw;
+    height: auto;
+}
+
+.reusable-content h2 {
+    margin-left: 1em;
+    margin-right: 2em;
+    margin-bottom: 0; 
+}
+
+.reusable-content p {
+    margin-left: 3em;
+    margin-right: 2em;
+    text-align: justify;
+    margin-bottom: 3em;
+}
+
+.image-section2 {
+    text-align: center;
+    padding: 50px 0; 
+}
+
+.secondhand h2 {
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-top: 3em; 
+}
+
+.secondhand p {
+    margin-left: 50px;
+    margin-right: 30em; 
+    margin-bottom: 3em; 
+}
+
+.image-container2 {
+    display: flex;
+    justify-content: center;
+}
+
+.image-wrapper2 {
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-wrapper2 img {
+    width: 400px;
+    height: 300px; 
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.image-wrapper2 img:hover {
+    opacity: 80%;
+}
+
+.image-section2 button {
+    display: block;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/*Madvaner*/
+
+
+.opskrifter h2 {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 2em; 
+}
+
+.opskrifter p {
+    text-align: center;
+}
+
+.image-container2 h4 {
+    color: #055B49;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.wefood {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #055B49;
+    margin-top: 4em; 
+}
+
+.wefood-image {
+    flex: 1;
+    max-width: 500px;
+    margin-right: 3em; 
+}
+
+.wefood-image img {
+    max-width: 500px;
+    height: auto;
+    margin-right: 0;
+}
+
+.wefood-content {
+    flex: 1;
+    margin-right: 17em; 
+}
+
+.wefood-content h2 {
+    color: #FFF6E7;
+    text-align: left;
+    margin-left: 0; 
+    margin-top: 0; 
+
+}
+
+.wefood-content p {
+    color: #FFF6E7;
+    text-align: justify;
+
+}
+
+.wefood-content a {
+    color:#FFF6E7;
+}
+
+.måltidskasser {
+    display: flex; 
+    align-items: center;
+    margin-bottom: 5em; 
+}
+
+.måltidskasser-content {
+    flex: 1; 
+}
+
+.måltidskasser-content h2 {
+    text-align: left;
+    margin-left: 1em; 
+}
+
+.måltidskasser-content p {
+    text-align: justify;
+    margin-left: 3.2em;
+    margin-right: 6em; 
+    margin-bottom: 2em; 
+}
+
+.måltidskasser-content a {
+    color:#055B49;
+    margin-left: 3.2em; 
+
+}
+
+
+.måltidskasser-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5em; 
+    margin-top: 5em; 
+}
+
+.måltidskasser-image img {
+    width: 600px;
+    height: 450px; 
+    object-fit: cover;
+}
+
+.spisesteder2 {
+    padding: 50px 0; 
+    display: flex; 
+    align-items: center;
+    background-color: #055B49;
+}
+
+.left-column2 {
+    flex: 1; 
+}
+
+.right-column2 {
+    flex: 1; 
+    padding: 0 20px; 
+}
+
+.spisesteder2 h2 {
+    color:#FFF6E7;
+    font-size: 60px;
+    margin: 70px;
+    text-transform: lowercase;
+    margin-left: 12vw;
+    text-align: left;
+}
+
+.spisesteder2 p {
+    color:#FFF6E7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-right: 12vw;  
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.list {
+    margin-top: 3em; 
+}
+.list h3 {
+    font-family:'Times New Roman', Times, serif;
+    color: #055B49;
+    font-size: 26px;
+    margin-bottom: -10px; 
+}
+
+.list h3 a {
+    font-family:'Times New Roman', Times, serif;
+    color: #055B49;
+    font-size: 26px;
+    margin-left: 3em;
+    margin-bottom: -10px;
+    text-decoration: none;
+}
+
+.list p {
+    margin-left: 4.5em; 
+    text-align: justify;
+    margin-right: 15em; 
+    margin-bottom: 5em; 
+}
+
+/*Oplevelser*/
+
+.oplevelser-top {  
+    display: flex;
+    align-items: center;
+    background-color: #055B49;
+    padding-bottom: 4em;
+    padding-top: 4em;
+}
+
+.oplevelser-top h2 {
+    font-size: 80px;
+    margin-left: 20px; 
+    color: #FFF6E7;
+}
+
+.oplevelser-image {
+    flex: 1; 
+}
+
+.oplevelser-image img {
+    max-width: 100%;
+    display: block;
+    margin-left: 7vw; 
+}
+
+.oplevelser-content {
+    flex: 1; 
+    padding: 0 20px; 
+}
+
+.venstre a {
+    color:#FFF6E7;
+}
+
+.ko-image {
+    flex: 1; 
+    margin-right: 4em;
+    margin-left: 6em;
+}
+
+.ko-image img {
+    max-width: 50vw;
+    max-height: 80vh;
+}
+
+/*Burgermenu*/
+
+.burger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #055B49;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.menu-items {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+    display: flex;
+}
+
+.menu-items li {
+    margin-right: 20px;
+}
+
+.menu-items a {
+    text-decoration: none;
+    color:#055B49;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+
+/*Media query for mobilversion*/
+@media only screen and (max-width: 800px) {
+    .burger-menu {
+        display: block;
+    }
+
+    .desktopmenu {
+        display: none 
+        }
+
+.menu-items {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    background-color: #FFF6E7;
+    width: 100vw;
+    height: 50vh;
+    padding-top: 50px;
+}
+
+.menu-items.show {
+    display: flex;
+}
+
+.menu-items li {
+    margin-right: 0; 
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.menu-items li a {
+    font-size: 16px; 
+}
+
+    }
+
+@media screen and (min-width: 800px) {
+    .menu-items {
+        display: none;
+    }
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    a {
+        font-size: 16px; 
+    }
+    /*Forside mobilversion*/
+    
+    .content-section p {
+        margin-left: 20px; 
+        margin-right: 2em; 
+        font-size: 16px;
+        margin-bottom: 30px;
+
+    }
+
+    .content-section h2 {
+        margin-left: 20px; 
+        font-size: 30px;
+    }
+
+    .genbrug {
+        flex-direction: column;
+        text-align: center;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .venstre-kolonne img {
+        margin-left: 0; 
+    }
+
+    .genbrug h2 {
+        margin-left: 0; 
+        font-size: 40px;
+    }
+
+    .spidesteder {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .spisesteder h2 {
+        margin: 0; 
+        margin-left: 20px; 
+        font-size: 30px;
+    }
+    
+    .spisesteder p {
+        margin: 0; 
+        font-size: 16px;
+    }
+
+    .spisesteder button {
+        margin-left: 20px; 
+    }
+
+   .right-column p {
+    display: none;
+   }
+
+   .link-tekst {
+    display: none; 
+   }
+
+    .arrangementer {
+        flex-direction: column;
+        margin-top: 0; 
+    }
+
+    .venstre-side, 
+    .højre-side {
+        margin-left: 0; 
+        margin-right: 0; 
+    }
+
+    .højre-side img {
+        max-width: 100%;
+        height: 200px;
+        
+    }
+
+    .arrangementer h2 {
+        margin-left: 20px; 
+        margin-right: 20px;
+        font-size: 40px;
+    }
+
+    .arrangementer p {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 16px;
+    }
+
+    .arrangementer button {
+        margin-left: 20px;
+        font-size: 12px;
+        margin-bottom: 20px; 
+    }
+
+    .image-section {
+        margin-top: 0;  
+    }
+
+    .image-section h2 {
+        font-size: 40px;
+    
+    }
+
+    .image-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-wrapper {
+        margin: 20px 0;
+    }
+
+    .image-wrapper img {
+        max-width: 100%;
+    }
+
+    .energi {
+        padding-bottom: 2em;
+    }
+
+    .energi h2 {
+        margin-left: 40px; 
+        font-size: 40px;
+    }
+
+    .energi p {
+        margin-left: 40px; 
+        font-size: 16px;
+    }
+
+    .højre img {
+      display: none;
+    }
+
+    .energi button {
+        margin-left: 40px;
+        margin-bottom: 40px; 
+    }
+
+    .dyrevelfærd {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0; 
+        margin-bottom: 0;
+    }
+
+    .left img {
+        margin-left: 0;
+        height: 300px;
+    }
+
+    .right h2 {
+        font-size: 40px;
+       
+    }
+
+    .right p {
+        font-size: 16px;
+        
+    }
+
+    /*Footer mobilversion*/
+
+    footer {
+        display: flex;
+        flex-wrap: wrap; 
+        justify-content: center;
+        background-color: #055B49;
+        padding-top: 40px;
+        padding-right: 20px;
+        margin-bottom: 3em;
+    }
+    
+    .column {
+        flex: 1;
+        text-align: left;
+    }
+    
+    .column h3 {
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #FFF6E7;
+        font-size: 14px;
+        margin-top: 0; 
+    }
+    
+    .column ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        color: #FFF6E7;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+    }
+    
+    .column ul li {
+        color: #FFF6E7;
+        text-decoration: none;
+        margin-bottom: 10px;
+        
+    }
+    
+    .column ul li a {
+        color: #FFF6E7;
+        text-decoration: none;
+        font-size: 13px;
+    }
+    
+    .column ul li a:hover {
+        opacity: 80%;
+    }
+    
+    .footer-logo {
+        text-align: center; /* Centrer logoet */
+        flex: 1; /* Tag op hele rækkebredden */
+    }
+    
+    .footer-logo img {
+        max-width: 100%; /* Tilpas logoet til bredden af forældreelementet */
+        margin-top: 0;
+    }
+
+    /*Genbrug mobilversion*/
+
+    .genbrug-genbrug {  
+        flex-direction: column;
+        align-items: center;
+       
+    }
+
+    .genbrug-genbrug h2 {
+        font-size: 40px;
+        margin-top: 0;
+    }
+
+    .info p {
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 16px;
+    }
+
+    .info h2 {
+        font-size: 40px;
+    }
+    
+    .reuse,
+    .reusable {
+        flex-direction: column;
+        align-items: center;
+    
+    }
+
+    .reusable {
+        margin-top: 0; 
+    }
+
+    .reuse-image img {
+        max-width: 100vw;
+        height: auto;
+        margin-bottom: 1em;
+        margin-left: 4.5em;
+        margin-top: 0;
+    }
+
+    .reuse-content h2 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .reuse-content p {
+        text-align: justify;
+        font-size: 16px;
+        margin: 0;
+        margin-left: 2em;
+        margin-right: 2em; 
+        margin-top: 1em;
+    }
+
+    .reusable-content h2 {
+        text-align: center;
+        margin-left: 2.5em;
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .reusable-image img {
+        max-width: 100vw;
+        margin-left: 10px;
+    }
+
+    .reusable-content p {
+        text-align: justify;
+        font-size: 16px;
+        margin-left: 3em;
+        margin-right: 1em;
+    }
+
+    .secondhand h2 {
+        font-size: 40px;
+        margin: 0;
+        margin-left: 30px;
+    }
+
+    .secondhand p {
+        font-size: 16px;
+        margin: 0;
+        margin-left: 30px;
+        margin-right: 30px;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .image-container2 {
+        display: block;
+        text-align: center;
+
+    }
+
+    .image-wrapper2 {
+        margin: 20px auto;
+        margin-top: 0;
+    }
+
+    /*Madvaner mobilversion*/
+
+    
+
+    .opskrifter-content p {
+        font-size: 16px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .wefood {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 2em;
+    }
+
+    .wefood-content {
+        margin: 0; 
+        text-align: center;
+    }
+
+    .wefood-content h2 {
+        margin-left: 20px;
+    }
+
+    .wefood-content p {
+        margin-left: 30px;
+        margin-right: 30px; 
+    }
+
+    .wefood-image {
+        margin: 0; 
+        margin-bottom: 2em; 
+    }
+
+    .wefood-image img {
+        width: 100%;
+        max-width: 400px;
+    }
+        
+
+    .måltidskasser {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .måltidskasser-content {
+        margin: 0; 
+        text-align: center;
+    }
+
+    .måltidskasser-content h2 {
+        margin-right: 2em;
+        margin-left: 0.7em;
+    }
+
+    .måltidskasser-content p {
+        margin-right: 2em;
+        margin-left: 2em; 
+    }
+
+    .måltidskasser a {
+        margin: 0; 
+    }
+
+    .måltidskasser-image {
+        margin: 0; 
+        margin-top: 2em; 
+    }
+
+    .måltidskasser-image img {
+        width: 100%;
+        max-width: 400px;
+        height: 100%;
+        max-height: 80%;
+    }
+
+    .spisesteder2 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .spisesteder2 h2 {
+        font-size: 40px;
+        margin: 0;
+        margin-left: 1em;
+    }
+
+    .spisesteder2 p {
+        margin: 0; 
+        margin-left: 1em;
+        margin-right: 1em;
+        margin-top: 15px;
+        text-align: left;
+    }
+
+    .list h3,
+    .list h3 a {
+        margin-left: 14px;
+        margin-right: 20px;
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .list p {
+        margin-left: 30px;
+        margin-right: 20px;
+        text-align: left;
+    }
+
+    /*Oplevelser mobilversion*/
+    .oplevelser-top {
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 1em;
+        padding-top: 0;
+    }
+
+    .oplevelser-top h2 {
+        font-size: 40px;
+        margin-left: 0; 
+        margin-bottom: 0.5em;
+        text-align: center;
+    }
+
+    .oplevelser-image img {
+        margin-left: 0;
+        margin-right: 0; 
+    }
+
+    .oplevelser-content {
+        padding: 0; 
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .ko-image {
+        margin: 0 auto;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .ko-image img {
+        max-width: 100%;
+        max-height: auto;
+    }
+
+    .reuse-content button {
+        justify-content: center;
+        text-align: center;
+        margin-left: 7em;
+        margin-top: 20px;
+        
+    }
+
+    .reuse-content a {
+        
+    }
+}
+
